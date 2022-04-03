@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  max-width: 800px;
+  margin: auto;
+}
+
+.imgtitle {
+  color: aqua;
+  font-weight: bolder;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin: 5px;
+  float: left;
+  width: 250px;
+}
